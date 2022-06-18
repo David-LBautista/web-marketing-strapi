@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "visa_types",
+  "info": {
+    "name": "visa-types"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
